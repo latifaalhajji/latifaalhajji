@@ -1,0 +1,106 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOEPbx3+FznwWWBxBnt81jP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/latifaalhajji/latifaalhajji/blob/main/coded%20%202025%20python%20ai%20day%201%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2jW2utXP_yYR",
+        "outputId": "eafba762-5839-468e-8ce5-67fe360e0bc4"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "latifa\n",
+            "17\n",
+            "--------\n",
+            " what is your first number of choice: 1\n",
+            " what is your second number of choice: 2\n",
+            "22\n",
+            "--------\n",
+            "what is your name? latiaf\n",
+            "salamo3alaikum,latiaf\n",
+            "--------\n",
+            "what is your name? latifa\n",
+            "what is your age? 17\n",
+            "what are your hobbies? gaming\n",
+            "welcome latifa\n",
+            "--------\n",
+            "what is your name? latiifa\n",
+            "what is your age? 17\n",
+            "what is your favorite food? mongolian beef\n",
+            "what is your favorite color? black\n",
+            " my name is latiifa, my age is 17,my favorite food is mongolian beef, and i always wear the color black.\n",
+            "--------\n"
+          ]
+        }
+      ],
+      "source": [
+        "name = \"latifa\"\n",
+        "age = 17\n",
+        "#----------\n",
+        "print (name)\n",
+        "print (age)\n",
+        "print (\"--------\")\n",
+        "#----------\n",
+        "number_1 = input( \" what is your first number of choice: \")\n",
+        "number_2 = input( \" what is your second number of choice: \")\n",
+        "\n",
+        "number_1=number_2\n",
+        "print (number_1 + number_2)\n",
+        "\n",
+        "print (\"--------\")\n",
+        "#----------\n",
+        "name = input(\"what is your name? \")\n",
+        "print (f\"salamo3alaikum,{name}\")\n",
+        "\n",
+        "print (\"--------\")\n",
+        "#----------\n",
+        "name = input(\"what is your name? \")\n",
+        "age= input(\"what is your age? \")\n",
+        "hobby = input(\"what are your hobbies? \")\n",
+        "\n",
+        "print (f\"welcome {name}\")\n",
+        "print (\"--------\")\n",
+        "#----------\n",
+        "name = input(\"what is your name? \")\n",
+        "age= input(\"what is your age? \")\n",
+        "food = input(\"what is your favorite food? \")\n",
+        "color = input(\"what is your favorite color? \")\n",
+        "\n",
+        "print(f\" my name is {name}, my age is {age},my favorite food is {food}, and i always wear the color {color}.\")\n",
+        "print (\"--------\")"
+      ]
+    }
+  ]
+}
